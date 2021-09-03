@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/VesperGolem605/Project1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VesperGolem605/Project1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Trey's Resume</title>
+	</head>	
+	<body>
+		<div id="top-of-page">
+			<header>
+				<h1 id="title" class = "title">Trey Sylvester's Resume</h1>
+				<img src="picture.PNG" alt="photo" width="500" height="300" class = "picture">
+				<nav class = "navigation">
+					<a href="#contact-info">Contact Information</a>
+					<a href="#education">Education</a>
+					<a href="#skill-set">Skill Set</a>
+					<a href="#extracurricular">Extracurricular Activities</a>
+					<a href="#experience">Work Experience</a>
+				</nav>
+			</header>
+		</div>
+		<section id="contact-info">
+			<h2 class="section-header">Contact Information</h2>
+			<address id="home-address" class="Address">
+				<h3 class="subsec-header">Address</h3>
+					<p>
+						<span class="adress">  1304C MaryJane Circle</span>
+					</p>
+					<p>
+						<span class="adress">  Blacksburg, VA, 24060</span>
+					</p>
+					<address id="email">
+						<a href="mailto:wsylvest@vt.edu">  wsylvest@vt.edu</a>
+					</address>
+				</p>
+			</address>
+		</section>
+		<section id="education" class="education">
+			<h2 class="section-header">Education</h2>
+			<p>
+				<span>Currently a junior at Virginia Tech</span>
+			</p>
+			<p>
+				<span>Majoring in Computer Science with a minor in mathematics</span>
+			</p>
+		</section>
+	
+		<section id="skill-set" class="skillset">
+			<h2 class="section-header">Skill Set</h2>
+			<div>
+				<h3 class="sub-section-header">Programming Languages</h3>
+				<ul class="skill-list">
+					<li>Python</li>
+					<li>Java</li>
+					<li>C++</li>
+					<li>C</li>
+					<li>C#</li>
+					<li>MATLAB</li>
+					<li>MySQL</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="sub-section-header">Misc</h3>
+				<ul class="skill-list">
+					<li>Math</li>
+					<li>AutoCad</li>
+					<li>Inventor</li>
+					<li>3D Printing</li>
+					<li>Basic Understanding of Electronics</li>
+				</ul>
+			</div>
+		</section>
+	
+		<section id="extracurricular" class="extracurricular">
+			<h2 class="section-header">Extracurricular Activities</h2>
+			<div">
+			     <ul class="skill-list">
+					<li>Governor's School</li>
+					<li>Mu Alpha Theta Math Society</li>
+					<li>National Honors Society</li>
+					<li>First Robotics Competition</li>
+				</ul>
+			</div>
+		</section>
+						   
+		<section id="experience" class="Work-Experience">
+			<h2 class="section-header">Work Experience</h2>
+			<p>
+				<span class="work">Worked at Progeny Systems, a contracter for the navy. Worked to develop a hardware testing software for FAT (Factory Acceptance Testing), EQT (Enviromental Quality Testing) and iTest for a new series of server cabinets.</span>
+			</p>
+		</section>
+	</body>
+</html>
